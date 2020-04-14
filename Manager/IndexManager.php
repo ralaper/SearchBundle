@@ -209,7 +209,7 @@ class IndexManager
     /**
      * @param array $config
      *
-     * @return IndexManager
+     * @return self
      */
     public function setConfig($config)
     {

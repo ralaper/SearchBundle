@@ -101,7 +101,7 @@ class Index
     /**
      * @param int $id
      *
-     * @return Index
+     * @return self
      */
     public function setId($id)
     {
@@ -121,7 +121,7 @@ class Index
     /**
      * @param int $foreignId
      *
-     * @return Index
+     * @return self
      */
     public function setForeignId($foreignId)
     {
@@ -141,7 +141,7 @@ class Index
     /**
      * @param string $model
      *
-     * @return Index
+     * @return self
      */
     public function setModel($model)
     {
@@ -161,7 +161,7 @@ class Index
     /**
      * @param string $field
      *
-     * @return Index
+     * @return self
      */
     public function setField($field)
     {
@@ -181,7 +181,7 @@ class Index
     /**
      * @param string $content
      *
-     * @return Index
+     * @return self
      */
     public function setContent($content)
     {
